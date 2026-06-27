@@ -4,42 +4,44 @@
 
 ## Key Concepts I Learned
 
-Creating and using GitHub 
+Creating and using GitHub : Account registration, repository creation,Collaboration and  forking, and editing files.
 
 ## Lab / Hands-On Work
 
+Log in to GitHub.
 
+Create a repository to capture my SC-500 learning journey.
 
-Logged into my GitHub. 
-
-Create a repository on my account that will capture my learning journey for SC 500
-
-Fork the Microsoft naija security group repository. 
+Fork the Microsoft Naija Security Group mentee repository.
 
 ### What I did
 
 &#x20;
 
-Create a repository on my GitHub account that has been opened and unused. 
+Logged in to my GitHub account.
 
-I was able to fork the Microsoft mentee repository which was ned to me. 
+Created a new repository on my account to document my SC-500 learning journey.
 
-Edit my notes and uploaded my assignment. 
+Forked the Microsoft mentee repository assigned to me.
+
+Edited my notes and uploaded my assignment.
 
 
 
 ### What happened / Result
 
-I was able to connect and upload on the class repository. 
+Successfully connected to and uploaded files to the class repository.
 
-Download the assignment edit my notes. 
+Forked the repo and cloned a local version to my GitHub account.  
 
+Downloaded the assignment and updated my notes.
 
 
 ### Challenges I faced
 
-Navigating the forking of repository and renaming GitHub. 
+Navigating the repository forking process.
 
+Renaming repositories on GitHub.
 
 
 
@@ -48,11 +50,11 @@ Navigating the forking of repository and renaming GitHub.
 
 
 
-The commitment required of me to harness this opportunity. 
+The level of commitment required to make the most of this opportunity.
 
-The schedule of the sessions 
+The schedule and cadence of the sessions.
 
-Our mentors, facilitators and moderators.  
+The roles of our mentors, facilitators, and moderators. 
 
 
 
@@ -64,6 +66,7 @@ Not Applicable
 
 ## Resources I Found Useful
 
+Navigating Github
 
 
 *Submitted by: Dare Ademola · Oluwati-damilare*
