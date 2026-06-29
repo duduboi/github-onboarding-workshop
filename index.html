@@ -822,177 +822,13 @@
   <section id="submissions">
     <div class="section-title">📝 Assignment Submissions</div>
     <p style="color:var(--muted);font-size:0.875rem;margin-bottom:20px;">
-      When a mentee uploads their notes file to a session folder and opens a Pull Request, their name appears here after merging.
-      Each file should be named <code style="background:var(--card);padding:2px 6px;border-radius:4px;color:var(--accent2);">topic-firstname-lastname.md</code>
+      Submissions are loaded live from the GitHub repo. Each card updates automatically when a Pull Request is merged.
+      Files should be named <code style="background:var(--card);padding:2px 6px;border-radius:4px;color:var(--accent2);">topic-firstname-lastname.md</code>
     </p>
-    <div class="cards-grid">
-
-      <div class="session-card">
-        <div class="card-header">
-          <div>
-            <div class="card-title">Session 00 — Pre-Bootcamp Onboarding</div>
-            <div class="card-date">27 Jun 2026</div>
-          </div>
-          <span class="badge badge-done">Done</span>
-        </div>
-        <div class="card-body">
-          <div class="submission-count">Submissions: <span id="s00-count">0</span></div>
-          <ul class="file-list" id="s00-files">
-            <li class="empty-msg">No submissions merged yet — be the first!</li>
-          </ul>
-        </div>
+    <div class="cards-grid" id="submissions-grid">
+      <div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--muted);font-size:0.9rem;">
+        Loading submissions from GitHub...
       </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div>
-            <div class="card-title">Session 01 — Microsoft Entra</div>
-            <div class="card-date">4 Jul 2026</div>
-          </div>
-          <span class="badge badge-next">Next</span>
-        </div>
-        <div class="card-body">
-          <div class="submission-count">Submissions: <span>0</span></div>
-          <ul class="file-list">
-            <li class="empty-msg">No submissions yet — session coming up Saturday 4 Jul</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div>
-            <div class="card-title">Session 02 — Azure Key Vault</div>
-            <div class="card-date">11 Jul 2026</div>
-          </div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body">
-          <div class="submission-count">Submissions: <span>0</span></div>
-          <ul class="file-list"><li class="empty-msg">Upcoming</li></ul>
-        </div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 03 — Governance &amp; Compliance Pt1</div><div class="card-date">18 Jul 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 04 — Governance &amp; Compliance Pt2</div><div class="card-date">25 Jul 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 05 — Azure Storage Security</div><div class="card-date">1 Aug 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 06 — Azure SQL Security</div><div class="card-date">8 Aug 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 07 — Network Security Pt1</div><div class="card-date">15 Aug 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 08 — Network Security Pt2</div><div class="card-date">22 Aug 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 09 — AI Security Pt1</div><div class="card-date">29 Aug 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 10 — AI Security Pt2</div><div class="card-date">5 Sep 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 11 — AI Security Pt3</div><div class="card-date">12 Sep 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 12–14 — Server &amp; VM Security</div><div class="card-date">19 Sep – 3 Oct 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 15–17 — App Platform Security</div><div class="card-date">10–24 Oct 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 18–20 — Defender for Cloud</div><div class="card-date">31 Oct – 14 Nov 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 21–23 — Microsoft Sentinel</div><div class="card-date">21 Nov – 5 Dec 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 24 — Security Copilot</div><div class="card-date">12 Dec 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
-      <div class="session-card">
-        <div class="card-header">
-          <div><div class="card-title">Session 25 — AMA &amp; Career Mentorship</div><div class="card-date">19 Dec 2026</div></div>
-          <span class="badge badge-upcoming">Upcoming</span>
-        </div>
-        <div class="card-body"><div class="submission-count">Submissions: <span>0</span></div><ul class="file-list"><li class="empty-msg">Upcoming</li></ul></div>
-      </div>
-
     </div>
   </section>
 
@@ -1132,6 +968,142 @@
       });
     }
   })();
+</script>
+
+<script>
+// ── DYNAMIC SUBMISSIONS LOADER ──────────────────────────────────────────────
+const REPO   = 'Microsoft-Naija-Security-Usergroup/github-onboarding-workshop';
+const BRANCH = 'main';
+const API    = 'https://api.github.com/repos/' + REPO + '/contents/classes/';
+
+const SESSIONS = [
+  { num:'00', folder:'session-00-2026-06-27-pre-bootcamp-onboarding',   title:'Pre-Bootcamp Onboarding',          date:'27 Jun 2026', status:'done' },
+  { num:'01', folder:'session-01-2026-07-04-microsoft-entra',            title:'Microsoft Entra',                  date:'4 Jul 2026',  status:'next' },
+  { num:'02', folder:'session-02-2026-07-11-azure-key-vault',            title:'Azure Key Vault',                  date:'11 Jul 2026', status:'upcoming' },
+  { num:'03', folder:'session-03-2026-07-18-governance-compliance-pt1',  title:'Governance & Compliance Pt1',      date:'18 Jul 2026', status:'upcoming' },
+  { num:'04', folder:'session-04-2026-07-25-governance-compliance-pt2',  title:'Governance & Compliance Pt2',      date:'25 Jul 2026', status:'upcoming' },
+  { num:'05', folder:'session-05-2026-08-01-azure-storage-security',     title:'Azure Storage Security',           date:'1 Aug 2026',  status:'upcoming' },
+  { num:'06', folder:'session-06-2026-08-08-azure-sql-security',         title:'Azure SQL Security',               date:'8 Aug 2026',  status:'upcoming' },
+  { num:'07', folder:'session-07-2026-08-15-network-security-pt1',       title:'Network Security Pt1',             date:'15 Aug 2026', status:'upcoming' },
+  { num:'08', folder:'session-08-2026-08-22-network-security-pt2',       title:'Network Security Pt2',             date:'22 Aug 2026', status:'upcoming' },
+  { num:'09', folder:'session-09-2026-08-29-ai-security-pt1',            title:'AI Security Pt1',                  date:'29 Aug 2026', status:'upcoming' },
+  { num:'10', folder:'session-10-2026-09-05-ai-security-pt2',            title:'AI Security Pt2',                  date:'5 Sep 2026',  status:'upcoming' },
+  { num:'11', folder:'session-11-2026-09-12-ai-security-pt3',            title:'AI Security Pt3',                  date:'12 Sep 2026', status:'upcoming' },
+  { num:'12', folder:'session-12-2026-09-19-server-vm-security-pt1',     title:'Server & VM Security Pt1',         date:'19 Sep 2026', status:'upcoming' },
+  { num:'13', folder:'session-13-2026-09-26-server-vm-security-pt2',     title:'Server & VM Security Pt2',         date:'26 Sep 2026', status:'upcoming' },
+  { num:'14', folder:'session-14-2026-10-03-server-vm-security-pt3',     title:'Server & VM Security Pt3',         date:'3 Oct 2026',  status:'upcoming' },
+  { num:'15', folder:'session-15-2026-10-10-app-platform-security-pt1',  title:'App Platform Security Pt1',        date:'10 Oct 2026', status:'upcoming' },
+  { num:'16', folder:'session-16-2026-10-17-app-platform-security-pt2',  title:'App Platform Security Pt2',        date:'17 Oct 2026', status:'upcoming' },
+  { num:'17', folder:'session-17-2026-10-24-app-platform-security-pt3',  title:'App Platform Security Pt3',        date:'24 Oct 2026', status:'upcoming' },
+  { num:'18', folder:'session-18-2026-10-31-defender-for-cloud-pt1',     title:'Defender for Cloud Pt1',           date:'31 Oct 2026', status:'upcoming' },
+  { num:'19', folder:'session-19-2026-11-07-defender-for-cloud-pt2',     title:'Defender for Cloud Pt2',           date:'7 Nov 2026',  status:'upcoming' },
+  { num:'20', folder:'session-20-2026-11-14-defender-for-cloud-pt3',     title:'Defender for Cloud Pt3',           date:'14 Nov 2026', status:'upcoming' },
+  { num:'21', folder:'session-21-2026-11-21-sentinel-pt1',               title:'Microsoft Sentinel Pt1',           date:'21 Nov 2026', status:'upcoming' },
+  { num:'22', folder:'session-22-2026-11-28-sentinel-pt2',               title:'Microsoft Sentinel Pt2',           date:'28 Nov 2026', status:'upcoming' },
+  { num:'23', folder:'session-23-2026-12-05-sentinel-pt3',               title:'Microsoft Sentinel Pt3',           date:'5 Dec 2026',  status:'upcoming' },
+  { num:'24', folder:'session-24-2026-12-12-security-copilot',           title:'Security Copilot',                 date:'12 Dec 2026', status:'upcoming' },
+  { num:'25', folder:'session-25-2026-12-19-ama-career-mentorship',      title:'AMA & Career Mentorship',          date:'19 Dec 2026', status:'upcoming' },
+];
+
+function badgeHTML(status) {
+  if (status === 'done')     return '<span class="badge badge-done">Done</span>';
+  if (status === 'next')     return '<span class="badge badge-next">Next</span>';
+  return '<span class="badge badge-upcoming">Upcoming</span>';
+}
+
+function cleanName(filename) {
+  // Remove the topic prefix and .md suffix, then format nicely
+  // e.g. "pre-bootcamp-onboarding-Oyimafu-Emmanuel.md" → "Oyimafu Emmanuel"
+  let name = filename.replace(/\.md$/, '');
+  // Strip known topic prefixes (everything up to and including the second hyphen group that matches folder topic)
+  // Strategy: split by hyphens, drop parts that look like topic words, keep the rest as name
+  const parts = name.split('-');
+  // Find where the actual name starts — names typically start with a capital letter
+  // after the topic slug. We look for the first part that starts with uppercase
+  // after at least 2 parts (topic must have at least one segment).
+  let nameStart = parts.length; // fallback: use full string
+  for (let i = 1; i < parts.length; i++) {
+    if (parts[i] && parts[i][0] === parts[i][0].toUpperCase() && parts[i][0].match(/[A-Z]/)) {
+      nameStart = i;
+      break;
+    }
+  }
+  const nameParts = parts.slice(nameStart);
+  if (nameParts.length === 0) return name; // fallback
+  return nameParts.join(' ');
+}
+
+async function loadSession(session) {
+  const url = API + session.folder + '?ref=' + BRANCH;
+  try {
+    const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github.v3+json' } });
+    if (!res.ok) throw new Error('fetch failed');
+    const files = await res.json();
+
+    // Filter out README.md and template files — only keep submitted notes
+    const submissions = files.filter(f =>
+      f.type === 'file' &&
+      f.name.endsWith('.md') &&
+      f.name !== 'README.md' &&
+      !f.name.includes('yourname-template') &&
+      !f.name.includes('YOURNAME')
+    );
+
+    return { session, submissions };
+  } catch(e) {
+    return { session, submissions: [] };
+  }
+}
+
+function renderCard({ session, submissions }) {
+  const folderUrl = 'https://github.com/' + REPO + '/tree/' + BRANCH + '/classes/' + session.folder;
+  const count = submissions.length;
+
+  let filesHTML = '';
+  if (count === 0) {
+    filesHTML = '<li class="empty-msg">' +
+      (session.status === 'upcoming'
+        ? 'Upcoming — session on ' + session.date
+        : 'No submissions yet — be the first!') +
+      '</li>';
+  } else {
+    filesHTML = submissions.map(f => {
+      const displayName = cleanName(f.name);
+      const fileUrl = 'https://github.com/' + REPO + '/blob/' + BRANCH + '/classes/' + session.folder + '/' + f.name;
+      return '<li><span class="dot"></span><a href="' + fileUrl + '" target="_blank" style="color:inherit;text-decoration:none;">' + displayName + '</a></li>';
+    }).join('');
+  }
+
+  return `
+    <div class="session-card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Session ${session.num} — ${session.title}</div>
+          <div class="card-date">${session.date}</div>
+        </div>
+        ${badgeHTML(session.status)}
+      </div>
+      <div class="card-body">
+        <div class="submission-count">
+          Submissions: <span>${count}</span>
+          ${count > 0 ? '&nbsp;<a href="' + folderUrl + '" target="_blank" style="font-size:0.75rem;color:var(--accent2);">view all on GitHub →</a>' : ''}
+        </div>
+        <ul class="file-list">${filesHTML}</ul>
+      </div>
+    </div>`;
+}
+
+async function loadAllSubmissions() {
+  const grid = document.getElementById('submissions-grid');
+  if (!grid) return;
+
+  // Load all sessions in parallel
+  const results = await Promise.all(SESSIONS.map(loadSession));
+
+  grid.innerHTML = results.map(renderCard).join('');
+}
+
+document.addEventListener('DOMContentLoaded', loadAllSubmissions);
 </script>
 
 </body>
